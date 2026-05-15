@@ -1,0 +1,21 @@
+# Remora Configuration
+# Copy to config.yaml and fill in your keys
+relays:
+  - wss://relay.damus.io
+  - wss://nos.lol
+  - wss://relay.snin.v2.site
+
+nostr:
+  nsec: ""  # Your Nostr nsec private key
+  npub: ""  # Your Nostr npub
+
+llm:
+  provider: openai
+  api_key: ""
+  model: gpt-4o-mini
+
+remora:
+  max_replies_per_day: 20
+  min_quality_score: 0.6
+  target_engagement: 0.2
+  languages: ["en", "ru"]

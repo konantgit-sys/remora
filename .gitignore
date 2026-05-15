@@ -1,0 +1,25 @@
+# Secrets
+config/config.yaml
+config/config.yml
+*.key
+nsec*
+.env
+keys.txt
+# Data
+data/
+logs/
+*.db
+*.log
+__pycache__/
+*.pyc
+venv/
+.venv/
+# Generated
+start.sh
+init.sh
+*.runner.sh
+# Old git history (contains API keys)
+REMORA_PROJECT.md
+ROADMAP_STATUS.md
+VERSION.md
+QUICKREF.txt
