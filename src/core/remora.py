@@ -66,7 +66,7 @@ from src.core.tracker import Tracker
 
 # Defaults — переопределяются config.yaml
 CONFIG = {
-    "nsec": "nsec1c7hpxhmlpjls0gnmgcdtxu8a5f466g4njzaek8372656xfay37squsue6z",
+    "nsec": "nsec1...SET_VIA_ENV",
     "npub": "npub134rgd9878v5547n3yu0dgz0mlcrpetk7hcc8ny4pxzrfdmml486qzm7zm0",
     "min_score": "B",
     "short_ratio": 0.7,
